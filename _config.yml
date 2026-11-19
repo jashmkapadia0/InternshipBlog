@@ -4,6 +4,11 @@ url: "https://jashmkapadia0.github.io"
 baseurl: "/InternshipBlog"
 repository: "jashmkapadia0/InternshipBlog"
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
 permalink: /blog/:year/:month/:day/:title/
 timezone: Asia/Kolkata
 exclude:

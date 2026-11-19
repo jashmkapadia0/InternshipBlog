@@ -4,7 +4,7 @@ Jekyll-based GitHub Pages site for **Deep Learning-Based Reconstruction and Deco
 
 ## GitHub Pages setup
 
-The site is configured for the project URL `https://jashmkapadia0.github.io/InternshipBlog/` with `baseurl: "/InternshipBlog"`. In the repository settings, publish from the `main` branch and the root folder. GitHub Pages builds the site with its supported Jekyll environment.
+The site is configured for the project URL `https://jashkapadia.me/InternshipBlog/` with `url: "https://jashkapadia.me"` and `baseurl: "/InternshipBlog"`. The repository publishes from the `main` branch and the root folder using GitHub Pages' supported Jekyll build.
 
 ## Content map
 

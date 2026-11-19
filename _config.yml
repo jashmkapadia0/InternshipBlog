@@ -1,6 +1,6 @@
 title: "Radio Imaging Research | PRL"
 description: "Research notes on deep learning based reconstruction and deconvolution of radio interferometric images."
-url: "https://jashmkapadia0.github.io"
+url: "https://jashkapadia.me"
 baseurl: "/InternshipBlog"
 repository: "jashmkapadia0/InternshipBlog"
 markdown: kramdown
@@ -12,3 +12,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - node_modules
+

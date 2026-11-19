@@ -54,11 +54,13 @@ permalink: /methodology/
     "scales_arcsec":  [0, 5, 15, 30],  # multi-scale CLEAN scales
 
     # U-Net
-    "unet_input_norm": "minmax",       # normalise dirty image to [0,1]
-    "unet_target_norm": "minmax",      # same scale as input
+    "unet_input_norm": "to_be_defined",  # preserve signed values; record transform
+    "unet_target_norm": "to_be_defined", # record target transform and inverse
     "train_val_test_split": [0.7, 0.15, 0.15],
 }
 </code></pre>
+
+<p class="callout"><strong>Normalization remains an open implementation choice.</strong> Per-image min–max scaling to [0,1] is not specified: it removes sign and can make the mapping between model output and physical flux ambiguous. Choose and document a transform that supports the signed input and target values in the selected dataset, fit any scale using training data only, and apply its inverse before physical-unit evaluation. The exact transform depends on the dataset and has not been selected.</p>
 
 <h2>3. CLEAN Implementation Protocol</h2>
 

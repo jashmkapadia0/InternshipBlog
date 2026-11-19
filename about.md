@@ -1,0 +1,8 @@
+---
+layout: default
+title: About
+description: About the PRL radio imaging research project and this project journal.
+permalink: /about/
+---
+<section class="page-hero"><p class="eyebrow">ABOUT THIS JOURNAL</p><h1>A careful record of a research process.</h1><p class="lede">This site documents a PRL research project on radio interferometric image reconstruction and deconvolution.</p></section>
+<section class="section content-grid"><div><p class="eyebrow">PROJECT SUMMARY</p><h2>Research question</h2></div><div class="prose"><p><strong>Deep Learning-Based Reconstruction and Deconvolution of Radio Interferometric Images</strong> investigates how image reconstruction from incomplete interferometric measurements can be studied with both a classical deconvolution method and a learned model.</p><p>The project centers on a fair comparison between Högbom CLEAN and a U-Net. That comparison must account for the measurement and image domains, data provenance, preprocessing, model training, and evaluation conditions. No claim about comparative performance is made until experiments have been run and checked.</p><h3>What this site records</h3><ul><li>Background on interferometric measurements and imaging.</li><li>The planned reconstruction workflow and methodological decisions.</li><li>Progress notes, including open questions and limitations.</li><li>Experimental plots and quantitative results once they exist and are verified.</li></ul><p class="callout"><strong>Research integrity note.</strong> Diagrams on this site are explanatory illustrations. Placeholder result panels are explicitly marked and contain no fabricated measurements.</p></div></section>

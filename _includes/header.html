@@ -1,0 +1,17 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <img src="{{ '/assets/images/signal-mark.svg' | relative_url }}" width="36" height="36" alt="">
+      <span><strong>PRL</strong><small>RESEARCH JOURNAL</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/about/' | relative_url }}" {% if page.url contains '/about' %}aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/research/' | relative_url }}" {% if page.url contains '/research' %}aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/methodology/' | relative_url }}" {% if page.url contains '/methodology' %}aria-current="page"{% endif %}>Methodology</a>
+      <a href="{{ '/progress/' | relative_url }}" {% if page.url contains '/progress' %}aria-current="page"{% endif %}>Progress</a>
+      <a href="{{ '/blog/' | relative_url }}" {% if page.url contains '/blog' %}aria-current="page"{% endif %}>Blog</a>
+    </nav>
+  </div>
+</header>
